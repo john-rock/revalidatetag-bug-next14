@@ -8,7 +8,7 @@ export default async function Home() {
   return (
     <main className="flex min-h-screen bg-white text-black flex-col items-center justify-between p-24">
       <p>
-        Minimial reproduction on a fresh Nextjs install confirming
+        Minimal reproduction on a fresh Nextjs install confirming
         revalidateTag() does not work when hosted on Vercel.
       </p>
       <p className="mt-10">To test:</p>
