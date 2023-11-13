@@ -3,7 +3,7 @@ import { revalidateTag } from 'next/cache'
 
 export const dynamic = "force-dynamic";
  
-export async function POST(request: NextRequest) {
+export async function POST() {
   revalidateTag('test')
 
   return Response.json({ revalidated: true, now: Date.now() })
